@@ -1,0 +1,29 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --cream:   #f5f2ed;
+  --ink:     #1a1814;
+  --grey:    #8c8880;
+  --border:  #e0dbd4;
+  --tag-bg:  #ede9e3;
+  --brown:   #8b6f5a;
+  --overlay: rgba(26, 24, 20, 0.88);
+  --green:   #2d6a4f;
+}
+
+html { font-size: 16px; }
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  background: var(--cream);
+  color: var(--ink);
+  min-height: 100vh;
+}
+
+button { cursor: pointer; font-family: inherit; }
+
+img { display: block; }
